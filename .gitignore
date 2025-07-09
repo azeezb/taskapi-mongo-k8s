@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+.vscode/
+
+# .NET Core
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+out/
+build/
+
+# Dependencies
+node_modules/
+packages/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Kubernetes secrets (if any)
+k8s/*secret*.yaml
+
+# Logs
+*.log
+logs/
